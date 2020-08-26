@@ -13,6 +13,6 @@ menu (array)
 Methods:
 
 server_quit (changes fast_service to false)
-slow_service (changes type; changes quality_food to false; changes fast_service to false)
+slow_cook (changes type; changes quality_food to false; changes fast_service to false)
 out_of_chicken (changes menu array, changes addons array)
 add_chicken (changes plate_cost integer)
