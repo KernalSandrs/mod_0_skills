@@ -1,0 +1,10 @@
+food = "wings"
+is_delicious = true
+food = "pizza"
+num2 = 4
+num7 = 8
+puts num7.div(num2)
+quotient = num7.div(num2)
+songs = ["Hurt", "Birdhouse", "Medicine"]
+songs.shift
+puts food.length
