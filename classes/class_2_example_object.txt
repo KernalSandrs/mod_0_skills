@@ -1,0 +1,27 @@
+Instance: McDonalds
+
+Attributes:
+
+type = 3_star_burger
+sanitary = true
+quality_food = true
+meal_cost = 8
+addons = ["fries", "shake", "extra cheese", "large size"]
+fast_service = true
+menu = ["hamburger meal", "cheeseburger meal", "chicken tender meal", "salad"]
+
+Methods:
+
+happy_employee: fast service =
+happy_employee: quality_food = true
+happy_employee: type = 3.5_star_burger
+smoke_break: fast_service = false
+smoke_break: sanitary changes = false
+smoke_break: quality_food changes = false
+smoke_break: type = 2.5_star_burger
+add_fry: meal_cost = 10.5
+add_fry: fast_service = false
+fryer_down: quality_food = false
+fryer_down: meal_cost = 5
+fryer_down: menu = "hamburger", "cheeseburger", "chicken tenders", "salad"]
+fryer_down: addons = ["shake", "extra cheese", "large size"]
