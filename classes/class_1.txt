@@ -1,0 +1,18 @@
+Class: Italian
+
+Attributes:
+
+type (string)
+healthy (boolean)
+quality_food (boolean)
+plate_cost (integer)
+addons (array)
+fast_service (boolean)
+menu (array)
+
+Methods:
+
+server_quit (changes fast_service to false)
+slow_service (changes type; changes quality_food to false; changes fast_service to false)
+out_of_chicken (changes menu array, changes addons array)
+add_chicken (changes plate_cost integer)
