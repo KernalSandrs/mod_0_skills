@@ -1,0 +1,23 @@
+Instance: Olive Garden
+
+Attributes:
+
+type = three_star
+healthy = false
+quality_food = true
+plate_cost = 16
+addons = ["chicken", "meatballs", "extra_sauce", "shrimp"]
+fast_service = true
+menu = ["chicken_parm", "chicken_alfredo", "shrimp_scampi", "spaghetti_and_meatballs", "lasagna"]
+
+Methods:
+
+server_quit: fast_service = false
+server_quit: quality_food = false
+slow_cook: type = 2.5_star
+slow_cook: quality_food = false
+slow_cook: fast_service = false
+out_of_chicken: menu = ["shrimp_scampi", "spaghetti_and_meatballs", "lasagna"]
+out_of_chicken: addons = [meatballs", "extra_sauce", "shrimp"]
+out_of_chicken: type = 2_star
+add_chicken: plate_cost = 20
