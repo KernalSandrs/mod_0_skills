@@ -1,0 +1,16 @@
+Fastfood
+
+type: (string)
+sanitary (boolean)
+quality_food (boolean)
+meal_cost (integer)
+addons (array)
+fast_service (boolean)
+menu (array)
+
+Methods:
+
+happy_employee (fast service changes to true, quality_food changes to true, type changes)
+smoke_break (fast_service changes to false, sanitary changes to false, quality_food changes to false, type changes)
+add_fry (meal_cost increases, fast_service changes to false)
+fryer_down (quality_food changes to false, meal_cost reduces, menu changes)
